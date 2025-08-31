@@ -1,0 +1,84 @@
+.uploader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 260px;
+  margin: 40px 0;
+}
+
+.drop-area {
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(4px);
+  border: 2px dashed #007bff;
+  border-radius: 18px;
+  padding: 48px 40px 36px 40px;
+  width: 440px;
+  text-align: center;
+  cursor: pointer;
+  transition: box-shadow 0.3s, border 0.3s, background 0.3s;
+  position: relative;
+}
+
+.drop-area:hover, .drop-area:focus {
+  background: rgba(0, 123, 255, 0.07);
+  border-color: #0056b3;
+  box-shadow: 0 12px 40px rgba(0, 123, 255, 0.18);
+  outline: none;
+}
+
+.uploader-icon {
+  margin-bottom: 14px;
+  animation: iconBounce 1.2s infinite alternate;
+}
+
+@keyframes iconBounce {
+  0% { transform: translateY(0);}
+  100% { transform: translateY(-8px);}
+}
+
+.drop-area p,
+.drop-area .or-text,
+.drop-area .hint {
+  margin: 8px 0;
+  color: #374151;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+}
+
+.drop-area .large {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.drop-area .or-text {
+  color: #aaa;
+  margin: 6px 0 8px 0;
+}
+
+.drop-area .hint {
+  color: #8a8a8a;
+  font-size: 12px;
+  margin-top: 18px;
+}
+
+.custom-btn {
+  padding: 10px 22px;
+  margin: 0;
+  border: none;
+  border-radius: 7px;
+  background: linear-gradient(90deg, #007bff 40%, #32b2fd 100%);
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  box-shadow: 0 3px 10px rgba(0,123,255,0.13);
+  transition: background 0.2s, transform 0.2s;
+}
+
+.custom-btn:hover,
+.custom-btn:focus {
+  background: linear-gradient(90deg, #0056b3 50%, #2fa6eb 100%);
+  transform: scale(1.04);
+  outline: none;
+}
