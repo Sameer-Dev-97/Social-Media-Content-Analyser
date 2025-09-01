@@ -45,30 +45,8 @@ Explore AI-driven recommendations to improve engagement
 Download or copy extracted text and insights
 
 Project Structure
-social-media-content-analyzer/
-│
-├── public/                     # Static files (favicon, index.html, etc.)
-│
-├── src/                        # Main source code
-│   ├── assets/                 # Static assets (images, SVGs)
-│   │   └── react.svg
-│   ├── components/             # React components
-│   │   ├── FileUploader.jsx
-│   │   └── FileUploader.css
-│   ├── utils/                  # Utility functions
-│   │   ├── gemini.js
-│   │   ├── ocr.js
-│   │   └── pdfExtract.js
-│   ├── App.jsx                 # App entry and logic
-│   ├── main.jsx                # App rendering
-│   └── styles.css              # Global styles
-│
-├── .env                        # Environment variables
-├── .gitignore                  # Files to ignore in git
-├── index.html                  # Main HTML file
-├── package.json                # Project metadata & dependencies
-├── vite.config.js              # Vite configuration
-└── README.md                   # Project documentation
+<img width="216" height="809" alt="image" src="https://github.com/user-attachments/assets/8d964d8e-1d0a-4282-9544-36e1d5e804ba" />
+
 
 
 Contributing
