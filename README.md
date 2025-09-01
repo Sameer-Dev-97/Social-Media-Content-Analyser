@@ -1,3 +1,5 @@
+Name- Sameer  Roll No.- 2201640100257
+
 #Social Media Content Analyzer
 A powerful React app that extracts, analyzes, and suggests improvements for social media posts from PDFs, images, and text files. Built to help content creators craft impactful, engaging posts optimized for audience reach and clarity.
 
