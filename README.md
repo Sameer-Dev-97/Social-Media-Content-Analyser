@@ -43,10 +43,27 @@ View instant text extraction and automated content analysis
 Explore AI-driven recommendations to improve engagement
 
 Download or copy extracted text and insights
-Project Structure
 
 
-<img width="216" height="809" alt="image" src="https://github.com/user-attachments/assets/8d964d8e-1d0a-4282-9544-36e1d5e804ba" />
+Brief Approach
+
+This project is a modern, AI-powered Social Media Content Analyzer that leverages React.js for an interactive user experience, enabling users to extract, analyze, and improve textual content from PDF and image files. The approach combines Optical Character Recognition (OCR) via Tesseract.js for images and PDF parsing via pdf.js to ensure accurate extraction of content from diverse formats. Users simply drag-and-drop or select files through an intuitive upload component, after which the extracted text is immediately displayed, analyzed, and accompanied by practical improvement suggestions.
+The core innovation of this project lies in its dual-analysis strategy. First, custom JavaScript heuristics quickly identify key features such as programming skills, presence of project mentions, or social profile links, providing instant feedback. Next, Google Gemini AI is invoked to generate advanced, context-specific engagement suggestions tailored to the actual content—ensuring users receive actionable tips rather than generic advice. This approach is particularly valuable for professionals and creators seeking to optimize their posts for social media engagement, as it focuses on aspects like clarity, call-to-action formulation, and relevance of hashtags.
+The project structure is modular and scalable. The separation of UI components, utilities for extraction and AI, and clear state-management logic in React favor maintainability and facilitate further extension, for example to other file types or AI models. Custom CSS ensures a polished, accessible interface responsive across device sizes.
+Overall, this tool empowers users to transform their documents and images into compelling, engagement-ready social media content through a seamless workflow that bridges extraction, analysis, and enhancement—all underpinned by the latest in AI technology and web development practices.
+
+
+
+
+Tech Stack
+
+Frontend: React.js, TailwindCSS
+
+Backend: Node.js, Express.js
+
+APIs/Tools: Gemini API, Tesseract.js (OCR), pdf-parse
+
+Hosting/Deployment: (mention platforms you used, e.g., Vercel + Render)
 
 
 
