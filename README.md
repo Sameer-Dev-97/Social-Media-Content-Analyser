@@ -43,8 +43,9 @@ View instant text extraction and automated content analysis
 Explore AI-driven recommendations to improve engagement
 
 Download or copy extracted text and insights
-
 Project Structure
+
+
 <img width="216" height="809" alt="image" src="https://github.com/user-attachments/assets/8d964d8e-1d0a-4282-9544-36e1d5e804ba" />
 
 
