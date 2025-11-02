@@ -69,6 +69,12 @@ Hosting/Deployment: (mention platforms you used, e.g., Vercel + Render)
 
 
 
+Hosted link-
+
+
+https://social-media-content-analyser-eight.vercel.app/
+
+
 Contributing
 Contributions and feedback are welcome! Please open issues for bugs or feature requests, or submit pull requests for improvements.
 
